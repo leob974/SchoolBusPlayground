@@ -33,12 +33,14 @@ PlaygroundPage.current.liveView = canvas
  ## A vous de jouer !
  */
 
-canvas.createRoadSection()
-canvas.createRoadSection()
-canvas.createHomeRoadSection()
-canvas.createSchoolRoadSection()
-canvas.moveBusForward()
-canvas.moveBusForward()
-canvas.stopBus()
-canvas.moveBusForward()
-canvas.stopBus()
+class Bus {
+    var driverName = "Joe"
+    var seats = 20
+    var occupiedSeats = 0
+    let numberOfWheels = 4
+    
+}
+
+var unBus = Bus()
+unBus.driverName = "Jean Bon"
+unBus.driverName
